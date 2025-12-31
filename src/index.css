@@ -1,0 +1,22 @@
+@import url(http://source.kizuna.zip/cdn/fonts/css/LINESeedSansTH.css);
+@import url(https://fonts.googleapis.com/css?family=Material+Symbols:100,200,300,regular,500,600,700);
+
+@import "tailwindcss";
+
+@theme {
+  --color-living-coral: rgb(254, 110, 111);
+  --color-jet: rgb(46, 47, 47);
+  --color-pastel-black: rgb(10, 10, 10);
+  --color-whitesmoke: rgb(245, 245, 245);
+
+  --color-overlay: rgba(0, 0, 0, 0.8);
+  --color-drop-overlay: rgba(0, 0, 0, 0.3);
+
+  --color-glass-drop: rgba(245, 245, 245, 0.2);
+  --color-glass-border: rgba(245, 245, 245, 0.4);
+}
+
+* {
+  font-family: "LINESeedSansTH", sans-serif;
+  transition: all 0.3s;
+}
