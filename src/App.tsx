@@ -19,7 +19,7 @@ function App() {
     );
   } else {
     if (custom !== "1") {
-      if (textID === null || textID === undefined) {
+      if (textID !== null || textID !== undefined) {
         return (
           <Layout>
             <Blessing name={name} text={Number(textID)} />
