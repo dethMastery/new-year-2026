@@ -7,12 +7,9 @@ function App() {
   const param = new URLSearchParams(searchString);
 
   const name = param.get("name"); // name
-  const textID = param.get("text"); // as id
+  const textID = param.get("type"); // as id
   const custom = param.get("custom"); // as 1
   const customText = param.get("newtext"); // as long string
-
-  console.log(custom);
-  console.log(customText);
 
   if (name === null || name === undefined) {
     return (
